@@ -1,4 +1,4 @@
-package strategy.Sample2;
+package strategy.sample2;
 /**
  * ҰѼ
  * @author New Song

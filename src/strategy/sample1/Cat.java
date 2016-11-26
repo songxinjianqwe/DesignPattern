@@ -1,4 +1,4 @@
-package strategy.Sample1;
+package strategy.sample1;
 /**
  * bean
 * @ClassName: Cat
