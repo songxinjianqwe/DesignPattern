@@ -1,6 +1,6 @@
 package strategy.Sample2;
 
-public class Test {
+public class Client {
 	public static void main(String[] args) {
 		Duck duck = new MallardDuck(new FlyWithWings(), new Quack());
 		duck.performFly();

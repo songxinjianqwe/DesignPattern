@@ -2,7 +2,7 @@ package strategy.Sample1;
 
 import java.util.Arrays;
 
-public class Test {
+public class Client {
 	public static void main(String[] args) {
 		Cat[] cats = {
 				new Cat(32,21),

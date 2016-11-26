@@ -1,5 +1,12 @@
 package strategy.Sample1;
-
+/**
+ * bean
+* @ClassName: Cat
+* @Description: TODO
+* @author NewSong
+* @date 2016年11月26日 下午12:42:38
+*
+ */
 public class Cat {
 	private int height;
 	private int weight;
