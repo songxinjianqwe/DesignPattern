@@ -1,0 +1,38 @@
+package memento;
+
+public class EmpMemento {
+	private String name;
+	private int age;
+	private double sal;
+	
+	public EmpMemento(Employee emp) {
+		this.name = emp.getName();
+		this.age = emp.getAge();
+		this.sal = emp.getSal();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public double getSal() {
+		return sal;
+	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
+	
+}
