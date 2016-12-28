@@ -10,7 +10,7 @@ import javax.xml.transform.Templates;
 * @date 2016年11月26日 下午1:17:30
 *
  */
-public class CurrentConditionDisplay implements Observer_2, DisplayElement {
+public class CurrentConditionDisplay implements Observer, DisplayElement {
 	private double temperature;
 	private double humidity;
 	private Subject weatherData;

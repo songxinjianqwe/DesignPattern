@@ -8,7 +8,7 @@ package observer.sample2;
 *
  */
 public interface Subject {
-	void registerObserver(Observer_2 o);
-	void removeObserver(Observer_2 o);
+	void registerObserver(Observer o);
+	void removeObserver(Observer o);
 	void notifyObservers();
 }

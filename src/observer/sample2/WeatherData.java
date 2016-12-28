@@ -11,7 +11,7 @@ import java.util.List;
 *
  */
 public class WeatherData implements Subject{
-	private List<Observer_2> observers;
+	private List<Observer> observers;
 	private double temperature;
 	private double humidity;
 	private double pressure;
@@ -21,18 +21,18 @@ public class WeatherData implements Subject{
 	}
 	
 	@Override
-	public void registerObserver(Observer_2 o) {
+	public void registerObserver(Observer o) {
 		observers.add(o);
 	}
 
 	@Override
-	public void removeObserver(Observer_2 o) {
+	public void removeObserver(Observer o) {
 		observers.remove(o);
 	}
 
 	@Override
 	public void notifyObservers() {
-		for(Observer_2 o:observers){
+		for(Observer o:observers){
 			o.update(temperature, humidity, pressure);
 		}
 	}
@@ -47,4 +47,5 @@ public class WeatherData implements Subject{
 		this.pressure = pressure;
 		measuresChanged();
 	}
+
 }
